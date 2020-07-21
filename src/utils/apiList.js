@@ -60,7 +60,6 @@ export const pubadsAPI = [
     ["getVideoContent", "function"],
     ["getCorrelator", "function"],
     ["setCorrelator", "function"],
-    ["updateCorrelator", "function"],
     ["isAdRequestFinished", "function"],
     ["collapseEmptyDivs", "function"],
     ["clear", "function"],

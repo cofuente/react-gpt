@@ -428,9 +428,6 @@ export class AdManager extends EventEmitter {
         // first instance updates correlator value and re-render each ad
         const instances = this.getMountedInstances();
         instances.forEach((instance, i) => {
-            if (i === 0) {
-                this.updateCorrelator();
-            }
             instance.forceUpdate();
         });
 
@@ -449,15 +446,6 @@ export class AdManager extends EventEmitter {
             return false;
         }
         return this.googletag.pubads().getVersion();
-    }
-
-    updateCorrelator() {
-        if (!this.pubadsReady) {
-            return false;
-        }
-        this.googletag.pubads().updateCorrelator();
-
-        return true;
     }
 
     load(url) {

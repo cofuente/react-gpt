@@ -6,24 +6,23 @@
     "jsnext:main": "es/index.js",
     "contributors": [
         {
-            "name": "NFL Engineering"
+            "name": "Rose Digital"
         }
     ],
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/nfl/react-gpt"
+        "url": "https://github.com/rose-digital/react-gpt"
     },
     "keywords": [
         "react-gpt",
-        "nfl",
         "react",
         "ad",
         "gpt",
         "google publisher tags"
     ],
     "bugs": {
-        "url": "https://github.com/nfl/react-gpt/issues"
+        "url": "https://github.com/rose-digital/react-gpt/issues"
     },
     "files": ["*.md", "docs", "es", "src", "dist", "lib"],
     "dependencies": {
